@@ -1,0 +1,17 @@
+{
+  "name": "market-making-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ccxt": "^1.51.49",
+    "dotenv": "^10.0.0"
+  }
+}
