@@ -44,8 +44,8 @@ const run = () => {
         tickInterval: 2000
     };
     const binanceClient = new ccxt.binance({
-        apiKey: process.env.API_KEY,
-        secret: process.env.API_SECRET
+        apiKey: your api key,
+        secret: your api secret
     });
     tick(config, binanceClient);
     setInterval(tick, config.tickInterval, config, binanceClient);
